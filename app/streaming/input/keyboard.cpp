@@ -487,10 +487,10 @@ void SdlInputHandler::handleKeyEvent(SDL_KeyboardEvent* event)
                 keyCode = 0xE2;
                 break;
             case SDL_SCANCODE_LANG1:
-                keyCode = 0x1C;
+                keyCode = 0x15;
                 break;
             case SDL_SCANCODE_LANG2:
-                keyCode = 0x1D;
+                keyCode = 0x19;
                 break;
             default:
                 SDL_LogInfo(SDL_LOG_CATEGORY_APPLICATION,
